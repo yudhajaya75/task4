@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topbar">
+        <form id="myform">
+            <input id="nm" type="text" name="username" placeholder="name">
+            <input id="jb" type="text" name="pekerjaan" placeholder="pekerjaan">
+            <input id="hb" type="text" name="hobi" placeholder="hobi">
+            <input id="nt" type="text" name="nationality" placeholder="nationality">
+            <button id="btn-add" type="submit" class="btn-list">Add user</button>
+        </form>
+        <div>
+            <input type="text" id="search" placeholder="Search...">
+        </div>
+    </div>
+
+    <div class="container" id="card-container">
+        <div class="card">
+            <div class="head">
+                <img src="profile.png" alt=""></div>
+                    <div class="body">
+                        <p id="cardname">Nama : Yogajaya</p>
+                        <p id="cardjob">Pekerjaan : Tidak Kerja</p>
+                        <p id="cardhobby">Hobi : Tidur</p>
+                        <p id="cardNationality">Nationaly : Usa</p>
+                        <button id="btn-edit" type="submit">Edit</button>
+                        <button id="btn-remove" type="submit">Delete</button>
+                    </div>
+        </div> 
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
